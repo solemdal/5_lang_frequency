@@ -4,10 +4,10 @@
 $ python lang_frequency.py 'path to file'
 
 # Example
-
+<br>
 IN: <br>
 aa aa aa a a a a <br>
-lol-kek
+lol-kek <br>
 <br>
 OUT: <br>
 Слово  a встречается в тексте  4 <br>
