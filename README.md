@@ -10,9 +10,9 @@ aa aa aa a a a a <br>
 lol-kek <br>
 <br>
 OUT: <br>
-Слово  a встречается в тексте  4 <br>
-Слово  aa встречается в тексте  3 <br>
-Слово  lol-kek встречается в тексте  1 <br>
+Word a repeated in text 4 count <br>
+Word aa repeated in text 3 count <br>
+Word lol-kek repeated in text 1 count <br>
 
 # Project Goals
 
