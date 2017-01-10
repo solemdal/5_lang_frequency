@@ -1,7 +1,7 @@
 # Frequency Analysis of Words
 
 # Start
-$ python pprint_json.py 'path to file'
+$ python lang_frequency.py 'path to file'
 
 # Example
 
