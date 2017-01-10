@@ -16,7 +16,8 @@ def load_data(filepath):
 def get_most_frequent_words(text):
     words_in_text = re.findall(r'[\w-]+', text)
     dect_words_in_text = Counter(words_in_text)
-    return dect_words_in_text.most_common(10)
+    count_top_words_in_text = 10
+    return dect_words_in_text.most_common(count_top_words_in_text)
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
@@ -33,4 +34,4 @@ if __name__ == '__main__':
     words = get_most_frequent_words(data)
 
     for word, count in words:
-        print('Слово ', word, 'встречается в тексте ', count)
+        print('Word ', word, 'repeated in text ', count, 'count')
