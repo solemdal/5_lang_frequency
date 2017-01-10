@@ -31,7 +31,7 @@ if __name__ == '__main__':
         print("Incorrect path to the file!")
         sys.exit(0)
 
-    words = get_most_frequent_words(data)
+    dict_words = get_most_frequent_words(data)
 
-    for word, count in words:
+    for word, count in dict_words:
         print('Word ', word, 'repeated in text ', count, 'count')
