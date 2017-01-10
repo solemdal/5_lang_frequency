@@ -26,12 +26,12 @@ if __name__ == '__main__':
         print("You should specify a file to analyze!")
         sys.exit(0)
     if load_data(path_to_file):
-        data = load_data(path_to_file)
+        input_text = load_data(path_to_file)
     else:
         print("Incorrect path to the file!")
         sys.exit(0)
 
-    dict_words = get_most_frequent_words(data)
+    dict_words = get_most_frequent_words(input_text)
 
     for word, count in dict_words:
         print('Word ', word, 'repeated in text ', count, 'count')
