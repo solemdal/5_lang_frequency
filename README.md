@@ -5,14 +5,14 @@ $ python lang_frequency.py 'path to file'
 
 # Example
 
-IN: 
-aa aa aa a a a a 
+IN: <br>
+aa aa aa a a a a <br>
 lol-kek
-
-OUT:
-Слово  a встречается в тексте  4
-Слово  aa встречается в тексте  3
-Слово  lol-kek встречается в тексте  1
+<br>
+OUT: <br>
+Слово  a встречается в тексте  4 <br>
+Слово  aa встречается в тексте  3 <br>
+Слово  lol-kek встречается в тексте  1 <br>
 
 # Project Goals
 
