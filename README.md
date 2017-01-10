@@ -1,6 +1,8 @@
 # Frequency Analysis of Words
 
-[TODO. There will be project description]
+# Start
+$ python pprint_json.py <path to file>
+# TODO add output example
 
 # Project Goals
 
